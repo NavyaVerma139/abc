@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+    <style>
+        .container{
+            border: 10px solid red;
+            width: 1000px;
+            margin: auto;
+        }
+
+        #math{
+            float: left;
+            width: 42%;
+        }
+
+        #science{
+            float: right;
+            width: 42%;
+        }
+
+        #english{
+            /*clear left will not let any left floating element on top of it  and likewise*/
+            clear: both;
+            width: 90%;
+        }
+
+        .subject{
+            border: 5px solid rebeccapurple;
+            width: 150px;
+            padding: 10px 3px;
+            margin: 10px 3px;
+        }
+
+        *{
+            background-color: cadetblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="math" class="subject">
+            <h3>MATHEMATICS</h3>
+            <p id="first">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente tempore quas. Voluptatum iusto quibusdam natus quia reiciendis dolorum facilis nobis. Obcaecati eveniet dolorum vitae soluta neque et rem voluptatem quidem earum nisi unde, sed cum! Dolor molestiae nisi sed nostrum molestias non doloremque laborum iure fugit, vero, ipsa distinctio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam dolorum eum pariatur omnis ullam recusandae ut, cupiditate minima? Quasi omnis eius facilis qui neque, alias sed. Quod ipsam voluptatem animi?
+            </p>
+        </div>
+
+        <div id="science" class="subject">
+            <h3>SCIENCE</h3>
+            <p id="second">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eos natus recusandae autem? Quisquam laudantium id eos facilis saepe vel laborum libero ex eveniet doloremque vero consectetur dolores, corporis labore nostrum consequuntur rem delectus praesentium itaque tempora quibusdam recusandae voluptas! Veritatis, temporibus. Incidunt repudiandae saepe dolore deserunt ipsa eveniet eos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi expedita voluptatum aspernatur cum accusamus totam dolorem dolorum voluptatibus ex natus eveniet molestias eum rerum exercitationem error, soluta fugiat ea quisquam!
+        </p>
+        </div>
+
+        <div id="english" class="subject">
+            <h3>ENGLISH</h3>
+            <p id="third">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugit repudiandae impedit odit illum exercitationem deleniti commodi quam, totam amet accusantium, voluptate eaque illo magni enim adipisci nihil incidunt eos alias rem, doloremque maxime minima! Doloremque voluptatibus doloribus, neque perferendis odit similique, veritatis libero minima vero numquam dolorum eius sint.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

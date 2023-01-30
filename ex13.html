@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Borders and Backgrounds</title>
+    <style>
+        #firstpara
+        {
+            background-color: aquamarine;
+            height: 110px;
+            width: 455px;
+            border-width: 5px;
+            border-color: black;
+            border-style: solid;
+            /*another way to define border*/
+           /* border: 5px solid black*/
+        }
+        #secondpara
+        {
+            background-color: darksalmon;
+            height: 110px;
+            width: 455px;
+            border-top: 5px solid green;
+            border-right: 5px solid black;
+            border-left: 5px solid hotpink;
+            border-bottom: 5px solid red;
+            border-radius: 10px;
+        }
+        #thirdpara
+        {
+            background-color: deeppink;
+            height: 700px;
+            width: 700px;
+            background-image: url('https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png');
+            border: 5px solid black;
+            background-repeat: no-repeat;/*repeat-x and repeat-y will repeat on x axis and y axis respectively*/
+            background-position: center center;
+            /*background-position: bottom right*/
+            /*background-position: top center*/
+        }
+
+    </style>
+</head>
+<body>
+    <h3>CSS BORDERS AND BACKGROUNDS</h3>
+
+    <p id="firstpara">This is the first paragraph</p>
+    <p id="secondpara">This is the second paragraph</p>
+    <p id="thirdpara">This is the third paragraph</p>
+
+</body>
+</html>

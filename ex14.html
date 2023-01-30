@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .{
+            box-sizing: border-box;
+            /*The box-sizing property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box*/
+        }
+        body{
+            background-color: rgb(255, 196, 227);
+        }
+        .container{
+            background-color: rgb(179, 255, 0);
+            border: 9px solid red;
+            border-radius: 10px;
+
+            /*padding: 45px; this will give 45 pixel padding from all the four sides*/
+
+            /*padding-left: 45px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 45px; padding can also be defined individually for top right left and bottom*/
+
+            /*padding: 10px 45px 20px 55px;*/ /*padding can also be defined all at once in the order top right bottom left (clockwise)*/
+
+            padding: 10px 45px; /*padding: y(top/bottom) x(left/left)*/
+
+            margin: 50px 350px; /*margin can also be defined in the same type as padding*/
+
+            width: 450px;
+        }
+    </style>
+    <link rel="stylesheet" href="papyrus.css">
+</head>
+<body>
+    <div class="container">
+        <h3>This is the first heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias officiis qui error accusamus nisi maiores ut minus quam, voluptate repudiandae sapiente tenetur modi beatae labore a! A ducimus reprehenderit facere possimus dignissimos sit tempora eos necessitatibus animi adipisci ex explicabo nemo, dolores ipsam eligendi quam!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is the second heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias officiis qui error accusamus nisi maiores ut minus quam, voluptate repudiandae sapiente tenetur modi beatae labore a! A ducimus reprehenderit facere possimus dignissimos sit tempora eos necessitatibus animi adipisci ex explicabo nemo, dolores ipsam eligendi quam!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is the third heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias officiis qui error accusamus nisi maiores ut minus quam, voluptate repudiandae sapiente tenetur modi beatae labore a! A ducimus reprehenderit facere possimus dignissimos sit tempora eos necessitatibus animi adipisci ex explicabo nemo, dolores ipsam eligendi quam!</p>
+    </div>
+</body>
+</html>
